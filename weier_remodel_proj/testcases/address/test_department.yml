@@ -1,0 +1,10 @@
+---
+TITLE: test_creat_department_success
+data:
+- - CP5
+  - 2
+  - 10
+- - CP6
+  - 1
+  - ''
+

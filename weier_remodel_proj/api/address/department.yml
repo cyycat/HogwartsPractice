@@ -1,0 +1,28 @@
+---
+TITLE: get_department
+method: get
+url: https://qyapi.weixin.qq.com/cgi-bin/department/list
+params:
+  access_token: $access_token
+  id: $id
+
+
+---
+TITLE: create_department
+method: post
+url: https://qyapi.weixin.qq.com/cgi-bin/department/create
+params:
+  access_token: $access_token
+json:
+  name: $name
+  parentid: $parentid
+  id: $id
+
+
+---
+TITLE: delete_department
+method: get
+url: https://qyapi.weixin.qq.com/cgi-bin/department/delete
+params:
+  access_token: $access_token
+  id: $id

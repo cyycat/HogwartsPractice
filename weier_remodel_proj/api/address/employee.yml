@@ -1,0 +1,22 @@
+---
+TITLE: get_employee
+method: get
+url: https://qyapi.weixin.qq.com/cgi-bin/user/get
+params:
+  access_token: $access_token
+  userid: $userid
+
+
+---
+TITLE: create_employee
+method: post
+url: https://qyapi.weixin.qq.com/cgi-bin/user/create
+params:
+  access_token: $access_token
+json:
+  department: $department
+  mobile: $mobile
+  name: $name
+  userid: $userid
+headers:
+  Content-Type: application/json; charset=utf-8
