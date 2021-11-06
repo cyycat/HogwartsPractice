@@ -22,7 +22,7 @@ pyparsing==2.4.7
 pytest==6.2.5
 PyYAML==6.0
 requests==2.26.0
-selenium==4.0.0
+selenium==4.0.0a1
 six==1.16.0
 sniffio==1.2.0
 sortedcontainers==2.4.0
